@@ -12,8 +12,15 @@ with open(os.path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 
 
 INSTALL_REQUIRES = [
-    'jax>=0.2.25'
+    'jax>=0.2.25',
+    'tensorflow==2.7.0',
+    'torch==1.10',
+    'onnx2keras==0.2.24',
+    'onnx==1.11.0'
 ]
+
+# Then install `tf2jax` without dependencies:
+# pip install git+https://github.com/deepmind/tf2jax.git --no-deps
 
 
 def _get_version() -> str:
