@@ -15,7 +15,7 @@ INSTALL_REQUIRES = [
     'jax>=0.2.25',
     'tensorflow==2.7.0',
     'torch==1.10',
-    'onnx2keras==0.2.24',
+    'onnx2keras==0.0.24',
     'onnx==1.11.0'
 ]
 
