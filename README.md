@@ -1,4 +1,4 @@
-# Fast Finite Width Neural Tangent Kernel
+# Fast Finite Width Neural Tangent Kernel has moved to https://github.com/google/neural-tangents
 Anonymous code supplement for the ICML2022 submission "Fast Finite Width Neural Tangent Kernel". 
 
 ## JAX
